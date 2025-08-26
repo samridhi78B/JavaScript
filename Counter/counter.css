@@ -1,0 +1,38 @@
+#countLabel{
+    display:block;
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#btnContainer{
+    text-align: center;
+    
+}
+.buttons1, .buttons2, .buttons3{
+    padding: 10px 20px ;
+    font-size: 1.5rem;
+    color:white;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.25rem;
+}
+
+.buttons1{
+    background-color: blue;
+}
+.buttons2{
+    background-color: black;
+}
+.buttons3{
+    background-color: red;
+}
+.buttons1:hover{
+    background-color: rgb(118, 118, 225);
+}
+.buttons2:hover{
+    background-color: rgb(79, 74, 74);
+}
+.buttons3:hover{
+    background-color: rgb(221, 84, 84);
+}
