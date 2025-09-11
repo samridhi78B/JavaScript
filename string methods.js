@@ -14,3 +14,9 @@ console.log(username.replaceAll(" ","")); //SamridhiGumber (replace(old, new))
 console.log(username.padStart(20,"0")); //00000Samridhi Gumber (add somethings at start padStart(how many times, "what to add"))
 console.log(username.padEnd(20,"0")); //Samridhi Gumber00000 (add somethings at end padEnd(how many times, "what to add"))
 console.log(username.includes(" ")); //true (check if includes(character) usme hai ke nhi)
+//slice-> substring 
+const fullName = "Samridhi Gumber";
+console.log(fullName.slice(0,)); //Samridhi Gumber
+console.log(fullName.slice(-1)); //r
+console.log(fullName.slice(4,12)); // idhi Gum 
+
