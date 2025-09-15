@@ -20,3 +20,9 @@ console.log(fullName.slice(0,)); //Samridhi Gumber
 console.log(fullName.slice(-1)); //r
 console.log(fullName.slice(4,12)); // idhi Gum 
 
+
+//Method chaining
+let username = window.prompt("enter username: "); //     saMRidhi
+username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+console.log(username); //Samridhi
+
